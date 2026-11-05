@@ -1,18 +1,17 @@
 [
   {
     "role": "Server Owner",
-    "name": "T0nka",
+    "names": ["T0nka"],
     "description": "Overall server management, administration and direction."
   },
   {
-    "role": "Administrator",
-    "name": "Grooby_Cutlet",
+    "role": "Administrators",
+    "names": ["Grooby_Cutlet"],
     "description": "Server administration and player support."
   },
   {
     "role": "Donators",
-    "name": "MikeHawk",
-    "name": "Celinatruc",
+    "names": ["MikeHawk", "Celinatruc"],
     "description": "Community support, rule enforcement and in-game assistance."
   }
 ]
