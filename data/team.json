@@ -1,17 +1,18 @@
 [
   {
     "role": "Server Owner",
-    "name": "ADD NAME",
-    "description": "Overall server management and direction."
+    "name": "T0nka",
+    "description": "Overall server management, administration and direction."
   },
   {
-    "role": "Administrators",
-    "name": "ADD TEAM / NAMES",
-    "description": "Server administration, configuration and player support."
+    "role": "Administrator",
+    "name": "Grooby_Cutlet",
+    "description": "Server administration and player support."
   },
   {
-    "role": "Moderators",
-    "name": "ADD TEAM / NAMES",
+    "role": "Donators",
+    "name": "MikeHawk",
+    "name": "Celinatruc",
     "description": "Community support, rule enforcement and in-game assistance."
   }
 ]
