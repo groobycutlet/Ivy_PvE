@@ -46,3 +46,20 @@
 .latest-news-card .card-link{margin-top:auto}
 @media(max-width:900px){.latest-news-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.latest-news-grid{grid-template-columns:1fr}.vehicle-photo{min-height:200px}.catalog-photo{height:165px}}
+
+
+/* Vehicle source / mod sections */
+.vehicle-groups{display:flex;flex-direction:column;gap:42px}
+.vehicle-mod-section{padding:25px;background:rgba(18,17,15,.58);border:1px solid var(--line);border-top:2px solid var(--orange2)}
+.vehicle-mod-heading{display:flex;align-items:center;gap:16px;margin-bottom:22px;padding-bottom:18px;border-bottom:1px solid var(--line)}
+.vehicle-mod-index{font-family:'Barlow Condensed',sans-serif;font-size:34px;line-height:1;color:var(--orange2);opacity:.85}
+.vehicle-mod-heading .eyebrow{margin:0 0 4px}
+.vehicle-mod-heading h2{margin:0;font-family:'Barlow Condensed',sans-serif;font-size:30px;line-height:1.05;text-transform:uppercase;letter-spacing:.04em}
+.vehicle-mod-count{margin-left:auto;color:var(--muted);font-size:9px;letter-spacing:.14em;white-space:nowrap}
+.vehicle-mod-section .vehicle-grid{display:grid;grid-template-columns:1fr;gap:18px}
+@media(max-width:650px){
+  .vehicle-mod-section{padding:15px}
+  .vehicle-mod-heading{gap:11px}
+  .vehicle-mod-heading h2{font-size:25px}
+  .vehicle-mod-count{font-size:8px}
+}

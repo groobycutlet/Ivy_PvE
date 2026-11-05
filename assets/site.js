@@ -59,7 +59,19 @@ async function renderVehicles() {
   let vehicles;
   try { vehicles = await getData(node.dataset.json); } catch { loadError(node,node.dataset.json); return; }
   if (!Array.isArray(vehicles)) { loadError(node,node.dataset.json); return; }
-  node.innerHTML = vehicles.map((v,i) => {
+  if (!vehicles.length) {
+    node.innerHTML = '<p class="muted">No vehicles yet. Add entries to data/vehicles.json.</p>';
+    return;
+  }
+
+  const groups = new Map();
+  vehicles.forEach((vehicle, index) => {
+    const mod = String(vehicle.mod || 'Unassigned').trim() || 'Unassigned';
+    if (!groups.has(mod)) groups.set(mod, []);
+    groups.get(mod).push({ vehicle, index });
+  });
+
+  const vehicleCard = ({ vehicle: v, index: i }) => {
     const img = safeImage(v.image);
     const media = img
       ? `<div class="vehicle-image"><img class="vehicle-photo" src="${esc(img)}" alt="${esc(v.name)}" loading="lazy"></div>`
@@ -69,7 +81,18 @@ async function renderVehicles() {
       <h3>${esc(v.name || 'Unnamed vehicle')}</h3><p>${esc(v.description || '')}</p>
       <div class="spec-grid"><div><small>STORAGE</small><b>${esc(v.storage || 'NOT LISTED')}</b></div><div><small>FUEL</small><b>${esc(v.fuel || 'NOT LISTED')}</b></div><div><small>ACCESS</small><b>${esc(v.access || 'NOT LISTED')}</b></div></div>
       </div></article>`;
-  }).join('') || '<p class="muted">No vehicles yet. Add entries to data/vehicles.json.</p>';
+  };
+
+  node.innerHTML = [...groups.entries()].map(([mod, entries], groupIndex) => `
+    <section class="vehicle-mod-section">
+      <div class="vehicle-mod-heading">
+        <span class="vehicle-mod-index">${String(groupIndex + 1).padStart(2, '0')}</span>
+        <div><p class="eyebrow">VEHICLE SOURCE / MOD</p><h2>${esc(mod)}</h2></div>
+        <span class="vehicle-mod-count">${entries.length} ${entries.length === 1 ? 'VEHICLE' : 'VEHICLES'}</span>
+      </div>
+      <div class="vehicle-grid">${entries.map(vehicleCard).join('')}</div>
+    </section>
+  `).join('');
 }
 async function renderNews() {
   const node = document.getElementById('news-list');
