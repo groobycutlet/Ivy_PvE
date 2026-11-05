@@ -11,6 +11,7 @@ The square `assets/ivy-badlands.png` remains used for the small header brand ima
 
 ## Content files
 - `data/news.json` — news and announcements
+- `data/news-sidebar.json` — News & Updates sidebar quick links and admin note
 - `data/items.json` — custom items and categories
 - `data/vehicles.json` — vehicle showcase and specifications
 - `data/server.json` — server connection details, gameplay overview and rules
@@ -23,7 +24,7 @@ The pages read these JSON files in the browser. No database or server-side langu
 - Leave image as an empty string to use the built-in themed placeholder.
 
 ## Editing JSON
-Keep double quotes around keys and string values. Separate entries with commas. Do not add a comma after the final entry. `news.json`, `items.json` and `vehicles.json` must remain JSON arrays (`[` ... `]`).
+Keep double quotes around keys and string values. Separate entries with commas. Do not add a comma after the final entry. `news.json`, `items.json` and `vehicles.json` must remain JSON arrays (`[` ... `]`). `news-sidebar.json` is a JSON object: edit the `quickLinks` list to add/remove sidebar links, and change `adminNote.title` or `adminNote.content` to update the admin note. Each quick link has a `label` and `url` (for example, `server.html`).
 
 Item filter category values: `medical`, `clothing`, `tools`, `weapons`.
 
@@ -36,3 +37,8 @@ If you have already customised `assets/Ivy_Badlands_BG.png` or `assets/ivy-badla
 Opening `index.html` by double-clicking may block JSON fetches. From the website folder, open Command Prompt and run:
 `py -m http.server 8000`
 Then visit `http://localhost:8000/`.
+
+
+### Vehicle sections
+
+Vehicles are automatically grouped into sections by the `mod` field in `data/vehicles.json`. Give entries from the same mod the same value (for example `"mod": "Expansion Mod"`). A new section is created automatically for each new mod name. Entries without a `mod` value appear under `Unassigned`.
