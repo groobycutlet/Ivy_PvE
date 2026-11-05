@@ -1,11 +1,11 @@
 {
   "profile": {
-    "name": "Ivy PvE — Badlands",
+    "name": "Ivy PvE — Badlands/Nasdara",
     "description": "Explore, survive and build your own story in a PvE-focused environment.",
-    "status": "Online",
-    "serverName": "Ivy PvE | Badlands",
-    "ip": "ADD SERVER IP",
-    "port": "ADD GAME PORT",
+    "status": "https://www.battlemetrics.com/servers/dayz/40662238",
+    "serverName": "[EU/UK] IVY PVE Badlands/Nasdara",
+    "ip": "176.9.121.215",
+    "port": "2491",
     "map": "Nasdara",
     "platform": "PC",
     "discordUrl": "https://discord.gg/ZDeFYYGusH",
