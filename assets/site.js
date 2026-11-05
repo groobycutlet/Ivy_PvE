@@ -199,7 +199,7 @@ async function renderServer() {
     <div>
       <b>${String(i+1).padStart(2,'0')}</b>
       <h3>${esc(x.title)}</h3>
-      <p>${esc(x.description).replace(/\n/g, '<br>')}</p>
+      <p>${formatText(x.description)}</p>
     </div>
   `).join('');
 }
