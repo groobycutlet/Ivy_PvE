@@ -88,6 +88,19 @@ async function renderNews() {
     <span class="tag">${esc(p.category || 'NEWS')}</span><small>${esc(p.date || '')}</small><h3>${esc(p.title || 'Untitled announcement')}</h3>
     <p>${esc(p.subtitle || p.content || '')}</p><span class="card-link">READ UPDATE ↗</span></a>`).join('');
 }
+
+async function renderNewsSidebar() {
+  const node = document.getElementById('news-sidebar');
+  if (!node) return;
+  let data;
+  try { data = await getData(node.dataset.json); } catch { loadError(node,node.dataset.json); return; }
+  const links = Array.isArray(data.quickLinks) ? data.quickLinks : [];
+  const note = data.adminNote || {};
+  node.innerHTML = `<p class="eyebrow">${esc(data.quickLinksTitle || 'QUICK LINKS')}</p>
+    ${links.map(link => `<a href="${esc(link.url || '#')}">${esc(link.label || 'Open link')} ↗</a>`).join('')}
+    <div class="side-note"><strong>${esc(note.title || 'ADMIN NOTE')}</strong><p>${esc(note.content || '')}</p></div>`;
+}
+
 async function renderServer() {
   const node = document.getElementById('server-profile');
   if (!node) return;
@@ -109,4 +122,4 @@ async function renderServer() {
   const rules = document.getElementById('rules-list');
   if(rules) rules.innerHTML = (data.rules || []).map((x,i) => `<div><b>${String(i+1).padStart(2,'0')}</b><h3>${esc(x.title)}</h3><p>${esc(x.description)}</p></div>`).join('');
 }
-renderItems(); renderVehicles(); renderNews(); renderServer();
+renderItems(); renderVehicles(); renderNews(); renderNewsSidebar(); renderServer();
