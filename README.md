@@ -1,27 +1,38 @@
-# Ivy PvE — Badlands website draft
+# Ivy PvE — Badlands (JSON content edition)
 
-A responsive static website for GitHub Pages.
+This package is based on the current `Ivy_PvE-main` website supplied by the owner.
+The existing theme, layout, navigation, fonts, colour scheme and artwork are retained.
 
-## Pages
-- `index.html` — landing page
-- `news.html` — announcements and updates
-- `server.html` — connection details and rules
-- `items.html` — custom item catalogue with working category filters
-- `vehicles.html` — vehicle showcase
+## Background image confirmation
+The supplied `assets/Ivy_Badlands_BG.png` IS already referenced by `assets/style.css` for the main homepage hero background:
+`url('Ivy_Badlands_BG.png')`.
+Because the stylesheet is in the `assets` directory, this correctly resolves to `assets/Ivy_Badlands_BG.png`.
+The square `assets/ivy-badlands.png` remains used for the small header brand image and the subpage banner background.
 
-## Publish on GitHub Pages
-1. Create a new GitHub repository (for example `ivy-pve-website`).
-2. Upload all files and folders in this package, keeping the `assets` folder.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Choose branch `main` and folder `/ (root)`, then save.
-6. Wait for GitHub Pages to publish the site.
+## Content files
+- `data/news.json` — news and announcements
+- `data/items.json` — custom items and categories
+- `data/vehicles.json` — vehicle showcase and specifications
+- `data/server.json` — server connection details, gameplay overview and rules
 
-## Before publishing
-Search for `ADD`, `TBD`, `PLACEHOLDER`, and sample copy in the HTML files. Replace the server IP, port, Discord invite, rules, dates, custom item details and vehicle specifications with real information.
+The pages read these JSON files in the browser. No database or server-side language is required.
 
-The website uses no build tools or server-side code. The mobile navigation and item category filters are powered by `assets/site.js`. The header image is `assets/ivy-badlands.png`.
+## Add images
+- Item images: upload to `assets/items/`, then set `"image": "assets/items/your-image.png"` in `data/items.json`.
+- Vehicle images: upload to `assets/vehicles/`, then set `"image": "assets/vehicles/your-image.png"` in `data/vehicles.json`.
+- Leave image as an empty string to use the built-in themed placeholder.
 
+## Editing JSON
+Keep double quotes around keys and string values. Separate entries with commas. Do not add a comma after the final entry. `news.json`, `items.json` and `vehicles.json` must remain JSON arrays (`[` ... `]`).
 
-## Visual direction
-The styling combines desert sand and burnt-orange highlights with charcoal/olive military panels, field-report labels, tactical line details and cinematic Badlands artwork. It is intended to feel like a military survival community site rather than a generic gaming template.
+Item filter category values: `medical`, `clothing`, `tools`, `weapons`.
+
+## Updating GitHub Pages
+Upload/replace the files in this package in your existing repository, preserving the folder structure, then commit the changes. Keep your existing repository Pages settings. GitHub Pages will publish the update automatically.
+
+If you have already customised `assets/Ivy_Badlands_BG.png` or `assets/ivy-badlands.png`, keep your preferred image versions when uploading the update.
+
+## Local preview
+Opening `index.html` by double-clicking may block JSON fetches. From the website folder, open Command Prompt and run:
+`py -m http.server 8000`
+Then visit `http://localhost:8000/`.
