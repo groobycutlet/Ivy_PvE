@@ -148,9 +148,9 @@ async function renderNewsSidebar() {
   try { data = await getData(node.dataset.json); } catch { loadError(node,node.dataset.json); return; }
   const links = Array.isArray(data.quickLinks) ? data.quickLinks : [];
   const note = data.adminNote || {};
-  node.innerHTML = `<p class="eyebrow">${esc(data.quickLinksTitle || 'QUICK LINKS')}</p>
+  node.innerHTML = `<p class="eyebrow">${formatText(data.quickLinksTitle || 'QUICK LINKS')}</p>
     ${links.map(link => `<a href="${esc(link.url || '#')}">${esc(link.label || 'Open link')} ↗</a>`).join('')}
-    <div class="side-note"><strong>${esc(note.title || 'ADMIN NOTE')}</strong><p>${esc(note.content || '')}</p></div>`;
+    <div class="side-note"><strong>${formatText(note.title || 'ADMIN NOTE')}</strong><p>${formatText(note.content || '')}</p></div>`;
 }
 
 async function renderServer() {
