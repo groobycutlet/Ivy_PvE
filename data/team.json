@@ -7,11 +7,11 @@
   {
     "role": "Administrators",
     "names": ["Grooby_Cutlet"],
-    "description": "Server administration and player support."
+    "description": "Basic Day2Day server administration, community support, rule enforcement and in-game assistance."
   },
   {
     "role": "Donators",
     "names": ["MikeHawk", "Celinatruc", "Remlalatruc", "Grooby_Cutlet"],
-    "description": "Community support, rule enforcement and in-game assistance."
+    "description": "Community pillars and valued server supporters."
   }
 ]
