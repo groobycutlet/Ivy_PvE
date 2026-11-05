@@ -165,12 +165,23 @@ async function renderServer() {
   if(team) {
     try {
       const members = await getData(team.dataset.json || 'data/team.json');
-      team.innerHTML = (Array.isArray(members) ? members : []).map((member,i) => `
-        <div class="team-member">
-          <span class="team-number">${String(i+1).padStart(2,'0')}</span>
-          <div><strong>${esc(member.role || 'TEAM MEMBER')}</strong><span>${esc(member.name || 'NAME NOT LISTED')}</span>
-          ${member.description ? `<p>${esc(member.description)}</p>` : ''}</div>
-        </div>`).join('') || '<p class="muted">Team information will be announced soon.</p>';
+      team.innerHTML = (Array.isArray(members) ? members : []).map((member,i) => {
+        const names = Array.isArray(member.names)
+          ? member.names
+          : [member.name || 'NAME NOT LISTED'];
+
+        return `
+          <div class="team-member">
+            <span class="team-number">${String(i+1).padStart(2,'0')}</span>
+            <div>
+              <strong>${esc(member.role || 'TEAM MEMBER')}</strong>
+              <div class="team-names">
+                ${names.map(name => `<span>${esc(name)}</span>`).join('')}
+              </div>
+              ${member.description ? `<p>${esc(member.description)}</p>` : ''}
+            </div>
+          </div>`;
+      }).join('') || '<p class="muted">Team information will be announced soon.</p>';
     } catch { loadError(team, team.dataset.json || 'data/team.json'); }
   }
   const rules = document.getElementById('rules-list');
