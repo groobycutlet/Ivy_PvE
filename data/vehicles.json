@@ -8,7 +8,8 @@
     "storage": "ADD VALUE",
     "fuel": "ADD TYPE",
     "access": "ADD METHOD",
-    "classname": "ADD CLASSNAME"
+    "classname": "ADD CLASSNAME",
+    "mod": "Vanilla Vehicles"
   },
   {
     "id": "sample-long-range-hauler",
@@ -19,7 +20,8 @@
     "storage": "ADD VALUE",
     "fuel": "ADD TYPE",
     "access": "ADD METHOD",
-    "classname": "ADD CLASSNAME"
+    "classname": "ADD CLASSNAME",
+    "mod": "Expansion Mod"
   },
   {
     "id": "sample-recon-vehicle",
@@ -30,6 +32,7 @@
     "storage": "ADD VALUE",
     "fuel": "ADD TYPE",
     "access": "ADD METHOD",
-    "classname": "ADD CLASSNAME"
+    "classname": "ADD CLASSNAME",
+    "mod": "Other Modded Vehicles"
   }
 ]
