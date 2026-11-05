@@ -164,7 +164,12 @@ async function renderServer() {
   const status = node.querySelector('.status-placeholder');
   if(h2) h2.textContent = p.name || 'IVY PVE — BADLANDS';
   if(description) description.innerHTML = formatText(p.description || '');
-  if(status) status.innerHTML = `<span class="status-dot"></span> SERVER STATUS: ${esc(p.status || 'NOT PROVIDED')}`;
+  const statusUrl = String(p.status || '').trim();
+  const statusContent = /^https?:\/\//i.test(statusUrl)
+    ? `<a class="text-link" href="${esc(statusUrl)}" target="_blank" rel="noopener">CHECK LIVE STATUS ↗</a>`
+    : esc(statusUrl || 'NOT PROVIDED');
+
+  if(status) status.innerHTML = `<span class="status-dot"></span> SERVER STATUS: ${statusContent}`;
   const discord = p.discordUrl ? `<a class="text-link" href="${esc(p.discordUrl)}" target="_blank" rel="noopener">${esc(p.discordLabel || 'JOIN DISCORD')} ↗</a>` : esc(p.discordLabel || 'ADD DISCORD INVITE');
   const fields = [['Server name',p.serverName],['IP address',p.ip],['Game port',p.port],['Map',p.map],['Platform',p.platform],['Discord',discord]];
   const dl = document.getElementById('connection-details');
