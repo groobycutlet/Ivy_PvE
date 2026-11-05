@@ -104,3 +104,12 @@
   .details-grid{grid-template-columns:1fr}
   .details-grid>.team-panel{grid-column:auto}
 }
+.team-names {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.team-names span {
+  display: block;
+}
