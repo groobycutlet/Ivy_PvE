@@ -65,8 +65,8 @@ async function renderItems() {
       item.obtainable && !String(item.obtainable).startsWith('ADD ') ? `OBTAIN: ${esc(item.obtainable)}` : ''
     ].filter(Boolean).join(' · ');
     return `<article class="catalog-card">${media}<div class="catalog-copy">
-      <span class="tag">${esc(item.categoryLabel || cat)}</span><h3>${esc(item.name || 'Unnamed item')}</h3>
-      <p>${esc(item.description || '')}</p>${extras ? `<p class="catalog-details">${extras}</p>` : ''}
+      <span class="tag">${esc(item.categoryLabel || cat)}</span><h3>${formatText(item.name || 'Unnamed item')}</h3>
+      <p>${formatText(item.description || '')}</p>${extras ? `<p class="catalog-details">${extras}</p>` : ''}
       <span class="catalog-id">ITEM ID: ${esc(item.classname || 'NOT PROVIDED')}</span></div></article>`;
   };
 
@@ -107,7 +107,7 @@ async function renderVehicles() {
       : `<div class="vehicle-image vehicle-${['one','two','three'][i%3]}"><span>IVY MOTORPOOL / ${String(i+1).padStart(3,'0')}</span><div class="vehicle-symbol">▰</div></div>`;
     return `<article class="vehicle-card">${media}<div class="vehicle-copy">
       <div class="entry-meta"><span class="tag">${esc(v.category || 'VEHICLE')}</span><span>CLASS: ${esc(v.classname || 'TBD')}</span></div>
-      <h3>${esc(v.name || 'Unnamed vehicle')}</h3><p>${esc(v.description || '')}</p>
+      <h3>${formatText(v.name || 'Unnamed vehicle')}</h3><p>${formatText(v.description || '')}</p>
       <div class="spec-grid"><div><small>STORAGE</small><b>${esc(v.storage || 'NOT LISTED')}</b></div><div><small>FUEL</small><b>${esc(v.fuel || 'NOT LISTED')}</b></div><div><small>ACCESS</small><b>${esc(v.access || 'NOT LISTED')}</b></div></div>
       </div></article>`;
   };
