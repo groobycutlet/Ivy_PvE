@@ -185,6 +185,12 @@ async function renderServer() {
     } catch { loadError(team, team.dataset.json || 'data/team.json'); }
   }
   const rules = document.getElementById('rules-list');
-  if(rules) rules.innerHTML = (data.rules || []).map((x,i) => `<div><b>${String(i+1).padStart(2,'0')}</b><h3>${esc(x.title)}</h3><p>${esc(x.description)}</p></div>`).join('');
+  if(rules) rules.innerHTML = (data.rules || []).map((x,i) => `
+    <div>
+      <b>${String(i+1).padStart(2,'0')}</b>
+      <h3>${esc(x.title)}</h3>
+      <p>${esc(x.description).replace(/\n/g, '<br>')}</p>
+    </div>
+  `).join('');
 }
 renderItems(); renderVehicles(); renderNews(); renderNewsSidebar(); renderServer();
