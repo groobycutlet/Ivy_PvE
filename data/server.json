@@ -7,14 +7,14 @@
     "ip": "ADD SERVER IP",
     "port": "ADD GAME PORT",
     "map": "Badlands",
-    "platform": "PC / UPDATE IF NEEDED",
-    "discordUrl": "",
-    "discordLabel": "ADD DISCORD INVITE"
+    "platform": "PC",
+    "discordUrl": "https://discord.gg/ZDeFYYGusH",
+    "discordLabel": "Ivy PvE"
   },
   "gameplay": [
     {
       "title": "PvE focus",
-      "description": "Describe how PvE works and whether PvP is restricted to specific zones."
+      "description": "Server is PvE only. No PvP is allowed anywhere on the map and damage will be reflected to the player dealing it (if you shoot your friend expect to be damaged yourself and possibly die)"
     },
     {
       "title": "Build & explore",
