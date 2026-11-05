@@ -170,7 +170,7 @@ async function renderServer() {
   const dl = document.getElementById('connection-details');
   if(dl) dl.innerHTML = fields.map(([label,value]) => `<dt>${esc(label)}</dt><dd>${label==='Discord'?value:esc(value || 'NOT PROVIDED')}</dd>`).join('');
   const gameplay = document.getElementById('gameplay-list');
-  if(gameplay) gameplay.innerHTML = (data.gameplay || []).map((x,i) => `<li><b>${String(i+1).padStart(2,'0')}</b><span><strong>${esc(x.title)}</strong><br>${esc(x.description)}</span></li>`).join('');
+  if(gameplay) gameplay.innerHTML = (data.gameplay || []).map((x,i) => `<li><b>${String(i+1).padStart(2,'0')}</b><span><strong>${formatText(x.title)}</strong><br>${formatText(x.description)}</span></li>`).join('');
   const team = document.getElementById('team-list');
   if(team) {
     try {
