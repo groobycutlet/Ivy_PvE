@@ -1,0 +1,21 @@
+{
+  "quickLinksTitle": "QUICK LINKS",
+  "quickLinks": [
+    {
+      "label": "Server information",
+      "url": "server.html"
+    },
+    {
+      "label": "Custom equipment",
+      "url": "items.html"
+    },
+    {
+      "label": "Vehicle showcase",
+      "url": "vehicles.html"
+    }
+  ],
+  "adminNote": {
+    "title": "ADMIN NOTE",
+    "content": "Manage announcements in data/news.json. Add another entry to publish a new field report."
+  }
+}
