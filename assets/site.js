@@ -133,12 +133,12 @@ async function renderNews() {
   if (!Array.isArray(posts)) { if(node)loadError(node,path); if(home)loadError(home,path); return; }
   if (node) node.innerHTML = posts.map((p,i) => `<article class="news-entry">
     <div class="entry-meta"><span class="tag ${i ? 'tag-outline' : ''}">${esc(p.category || 'NEWS')}</span><span>${esc(p.date || '')}</span></div>
-    <h2>${esc(p.title || 'Untitled announcement')}</h2>${p.subtitle ? `<p class="lead">${esc(p.subtitle)}</p>` : ''}
-    <p>${esc(p.content || '')}</p><div class="entry-foot">POSTED BY ${esc(p.author || 'IVY STAFF')}<span>${String(i+1).padStart(2,'0')} / ${String(posts.length).padStart(2,'0')}</span></div>
+    <h2>${esc(p.title || 'Untitled announcement')}</h2>${p.subtitle ? `<p class="lead">${formatText(p.subtitle)}</p>` : ''}
+    <p>${formatText(p.content || '')}</p><div class="entry-foot">POSTED BY ${esc(p.author || 'IVY STAFF')}<span>${String(i+1).padStart(2,'0')} / ${String(posts.length).padStart(2,'0')}</span></div>
     </article>`).join('') || '<p class="muted">No announcements yet. Add entries to data/news.json.</p>';
   if (home) home.innerHTML = posts.slice(0,3).map(p => `<a class="latest-news-card" href="news.html">
     <span class="tag">${esc(p.category || 'NEWS')}</span><small>${esc(p.date || '')}</small><h3>${esc(p.title || 'Untitled announcement')}</h3>
-    <p>${esc(p.subtitle || p.content || '')}</p><span class="card-link">READ UPDATE ↗</span></a>`).join('');
+    <p>${formatText(p.subtitle || p.content || '')}</p><span class="card-link">READ UPDATE ↗</span></a>`).join('');
 }
 
 async function renderNewsSidebar() {
