@@ -33,6 +33,10 @@
   {
     "title": "IVY PVE Server Rules",
     "description": "- This server is PVE only. If you want to practise your PVP skills, please find another server.\n- No refund will be given for gear lost due to bugs without video evidence.\n- Any form of bullying, harassment, abuse or toxic behaviour is not welcomed.\n- Loot cycling (removing and dropping/destroying unwanted loot from spawn points to make space for new loot spawn) is strictly forbidden.\n- Do not dupe, hack, glitch or cheat in any form to gain an unfair advantage.\n- Use vehicles at your own risk. We do not refund any vehicles.\n- Do not steal from other players. If it's not yours, don't take it.\n- Please use English only in global chat.\n- If you come across a bodybag, leave it for the owner to retrieve their possessions.\n- Please make sure your in-game name and Discord name are the same.\n- Ignorance is not bliss. Rule breaking will be dealt with accordingly."
+  },
+  {
+    "title": "Basebuilding Rules",
+    "description": "- Building a base requires a plotpole to be placed down first.\n- Do not steal from players bases.\n- Base construction should be MIN 400 meters from other bases.\n- One base per solo player or group.\n- One base per solo player or group.\n- BBP bases solo player MAX size is 3x2 in any configuration.\n- BBP group MAX size is 3x3 in any configuration.\n- Vanilla fence panel MAX count per base is 24.\n- Vanilla panel MAX height per base is 2 panels high.MAX 2 tents per base.\n- MAX 2 greenhouses per solo player, 3 greenhouses per group.\n- Do not build within 500m of any military.\n- Do not build at hospitals/military areas/police stations/gas stations or plank spawns.\n- Do not obstruct roads or wells.\n- MAX 10 Tofu barrels per solo player and +5 barrels for every extra team member (MAX 30 per group).\n- Please close the lids on your Tofu barrels after use.\n- Any base size breach will be deleted to maintain server performance."
   }
 ],
   "team": [
