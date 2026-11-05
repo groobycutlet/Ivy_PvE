@@ -10,6 +10,16 @@ if (toggle && nav) {
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({
   '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
 }[c]));
+// Safe text formatting for content stored in JSON.
+const formatText = value => {
+  let text = esc(value);
+  return text
+    .replace(/\*\*([^*\n]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/__([^_\n]+)__/g, '<u>$1</u>')
+    .replace(/~~([^~\n]+)~~/g, '<del>$1</del>')
+    .replace(/(?<!\*)\*([^*\n]+)\*(?!\*)/g, '<em>$1</em>')
+    .replace(/\r?\n/g, '<br>');
+};
 const safeImage = value => {
   const path = String(value || '').trim();
   if (!path || path.startsWith('/') || path.includes('..') || /^https?:/i.test(path)) return '';
