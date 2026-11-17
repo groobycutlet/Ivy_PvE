@@ -1176,5 +1176,78 @@
         "KubanG1_red"
       ],
       "mod": "RUSForma"
+    },
+    {
+      "id": "zil_131",
+      "name": "ZIL-131",
+      "price": "0",
+      "category": "TRUCK",
+      "image": "",
+      "description": "A heavy-duty all-wheel-drive military truck available with a standard cargo body or an enclosed tent body.",
+      "storage": "1000 slots",
+      "externalStorage": {
+        "Standard": [
+          "4 x 55-gallon Barrels",
+          "4 x Wooden Crates",
+          "1 x Sea Chest"
+        ],
+        "Tent": [
+          "4 x 55-gallon Barrels",
+          "6 x Wooden Crates"
+        ]
+      },
+      "attachments": {
+        "Standard": [
+          "Cassette Player",
+          "Gasoline Canister",
+          "Backpack",
+          "Shoulder Weapon",
+          "Melee Weapon",
+          "Pistol",
+          "Spare Wheel",
+          "2 x Number Plates"
+        ],
+        "Tent": [
+          "Tent",
+          "Cassette Player",
+          "Gasoline Canister",
+          "Backpack",
+          "Spare Wheel",
+          "2 x Number Plates"
+        ]
+      },
+      "fuel": "Petrol",
+      "fuelCapacity": "100 litres",
+      "requirements": [
+        "Truck Battery",
+        "Car Radiator",
+        "Spark Plug",
+        "6 x ZIL-131 Wheels",
+        "1 x Spare Wheel"
+      ],
+      "seating": 10,
+      "gearbox": "Manual 4-speed",
+      "drive": "AWD",
+      "variants": [
+        "Standard",
+        "Blue",
+        "Camouflage",
+        "Camouflage 2",
+        "Tent",
+        "Tent Blue",
+        "Tent Camouflage",
+        "Tent Camouflage 2"
+      ],
+      "classname": [
+        "ZIL_131",
+        "ZIL_131_blue",
+        "ZIL_131_camo",
+        "ZIL_131_camo2",
+        "ZIL_131_tent",
+        "ZIL_131_tent_blue",
+        "ZIL_131_tent_camo",
+        "ZIL_131_tent_camo2"
+      ],
+      "mod": "RUSForma"
     }
 ]
