@@ -723,5 +723,54 @@
         "GAZ_M20_blue"
       ],
       "mod": "RUSForma"
+    },
+    {
+      "id": "gaz_21_volga",
+      "name": "GAZ-21 Volga",
+      "price": "0",
+      "category": "SEDAN",
+      "image": "",
+      "description": "Classic Soviet-era four-door sedan with AWD, a roof rack option and a practical cargo area.",
+      "storage": "600 slots",
+      "externalStorage": {
+        "All variants": [
+          "1 x Wooden Crate"
+        ]
+      },
+      "attachments": {
+        "All variants": [
+          "1 x Roof Rack",
+          "1 x Cassette Player",
+          "1 x Gasoline Canister",
+          "1 x Backpack",
+          "1 x Shoulder Weapon",
+          "1 x Melee Weapon",
+          "1 x Spare Wheel",
+          "2 x Number Plates"
+        ]
+      },
+      "fuel": "Petrol",
+      "fuelCapacity": "60 litres",
+      "requirements": [
+        "Car Battery",
+        "Car Radiator",
+        "Spark Plug",
+        "4 x GAZ-21 Volga Wheels",
+        "1 x Spare Wheel"
+      ],
+      "seating": "4",
+      "gearbox": "Manual 3-speed",
+      "drive": "AWD",
+      "variants": [
+        "Standard",
+        "Black",
+        "Green"
+      ],
+      "classname": [
+        "GAZ21_Volga",
+        "GAZ21_Volga_black",
+        "GAZ21_Volga_green"
+      ],
+      "mod": "RUSForma"
     }
 ]
