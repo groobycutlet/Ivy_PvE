@@ -669,5 +669,59 @@
         "Gaz_233002_Tiger_camo"
       ],
       "mod": "RUSForma"
+    },
+    {
+      "id": "gaz_m20",
+      "name": "GAZ-M20 Pobeda",
+      "price": "0",
+      "category": "SEDAN",
+      "image": "",
+      "description": "Classic Soviet-era sedan with AWD, a compact cargo area and several colour variants.",
+      "storage": "600 slots",
+      "externalStorage": {
+        "All variants": [
+          "2 x Wooden Crates"
+        ]
+      },
+      "attachments": {
+        "All variants": [
+          "1 x Cassette Player",
+          "1 x Gasoline Canister",
+          "1 x Backpack",
+          "1 x Shoulder Weapon",
+          "1 x Melee Weapon",
+          "1 x Spare Wheel",
+          "1 x Number Plates"
+        ]
+      },
+      "fuel": "Petrol",
+      "fuelCapacity": "55 litres",
+      "requirements": [
+        "Car Battery",
+        "Car Radiator",
+        "Spark Plug",
+        "4 x GAZ-M20 Wheels",
+        "1 x Spare Wheel"
+      ],
+      "seating": "4",
+      "gearbox": "Manual 3-speed",
+      "drive": "AWD",
+      "variants": [
+        "Standard",
+        "White",
+        "Green",
+        "Black",
+        "Red",
+        "Blue"
+      ],
+      "classname": [
+        "GAZ_M20",
+        "GAZ_M20_white",
+        "GAZ_M20_green",
+        "GAZ_M20_black",
+        "GAZ_M20_red",
+        "GAZ_M20_blue"
+      ],
+      "mod": "RUSForma"
     }
 ]
