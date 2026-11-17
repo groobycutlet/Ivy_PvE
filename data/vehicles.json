@@ -341,7 +341,15 @@
     "image": "",
     "description": "A heavy-duty, all-wheel-drive Soviet cargo truck designed for transporting equipment and supplies across difficult terrain. Available in standard flatbed and petrol truck configurations, with a large internal cargo area.",
     "storage": "1000 slots",
-    "externalStorage": "Flatbed: 6 x 55-gallon Barrels + 4 x Wooden Crates. Petrol Truck: No external cargo containers.",
+    "externalStorage": {
+        "Flatbed": [
+          "6 x 55-gallon Barrels",
+          "4 x Wooden Crates"
+        ],
+      "Petrol Truck": [
+        "No external cargo containers."
+      ]
+    },
     "attachments": {
         "Flatbed": [
             "1 x Tent",
