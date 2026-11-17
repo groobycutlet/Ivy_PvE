@@ -389,5 +389,79 @@
         "Gaz_53RF_petrol_truck"
     ],
     "mod": "RUSForma"
+  },
+  {
+    "id": "gaz_66",
+    "name": "GAZ-66",
+    "price": "0",
+    "category": "TRUCK",
+    "image": "",
+    "description": "A rugged, all-wheel-drive Soviet military transport truck designed for demanding off-road conditions. Available with an enclosed Kung body or an open Kuzov flatbed configuration, both offering substantial internal cargo capacity and multiple external attachment options.",
+    "storage": "1000 slots",
+    "externalStorage": {
+        "Kung": [
+            "3 x Wooden Crates",
+            "4 x 55-gallon Barrels"
+        ],
+        "Kuzov (Flatbed)": [
+            "3 x Wooden Crates",
+            "4 x 55-gallon Barrels"
+        ]
+    },
+    "attachments": {
+        "Kung": [
+            "1 x Camo Net",
+            "1 x Cassette Player",
+            "1 x Gasoline Canister",
+            "1 x Backpack Slot",
+            "1 x Shoulder Slot",
+            "1 x Melee Weapon Slot",
+            "1 x Spare Wheel"
+        ],
+        "Kuzov (Flatbed)": [
+            "1 x Camo Net",
+            "1 x Cassette Player",
+            "1 x Gasoline Canister",
+            "1 x Backpack Slot",
+            "1 x Shoulder Slot",
+            "1 x Melee Weapon Slot",
+            "1 x Spare Wheel",
+            "1 x Wooden Logs Attachment",
+            "1 x Wooden Planks Attachment"
+        ]
+    },
+    "fuel": "Petrol",
+    "fuelCapacity": "100 litres",
+    "requirements": [
+        "Truck Battery",
+        "Car Radiator",
+        "Spark Plug",
+        "4 x GAZ-66 Wheel Positions (4 road wheels)",
+        "1 x Spare Wheel"
+    ],
+    "seating": "6 (Driver + Co-Driver + 4 Passengers)",
+    "gearbox": "Manual (4-speed)",
+    "drive": "AWD",
+    "variants": [
+        "Kung",
+        "Kung Camo",
+        "Kung Winter Camo",
+        "Kung Camo 2",
+        "Kuzov (Flatbed)",
+        "Kuzov Camo",
+        "Kuzov Winter Camo",
+        "Kuzov Camo 2"
+    ],
+    "classname": [
+        "GAZ_66",
+        "GAZ_66_camo",
+        "GAZ_66_zima_camo",
+        "GAZ_66_camo2",
+        "GAZ_66_kuzov",
+        "GAZ_66_kuzov_camo",
+        "GAZ_66_kuzov_zima_camo",
+        "GAZ_66_kuzov_camo2"
+    ],
+    "mod": "RUSForma"
   }
 ]
