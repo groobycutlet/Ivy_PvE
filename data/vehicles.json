@@ -875,5 +875,61 @@
         "ij_2715_RF_red"
       ],
       "mod": "RUSForma"
+    },
+    {
+      "id": "ij_2140_sl",
+      "name": "Moskvich-2140 SL",
+      "price": "0",
+      "category": "SEDAN",
+      "image": "",
+      "description": "Classic Soviet-era sedan with AWD, a practical cargo area and several civilian and police-style variants.",
+      "storage": "500 slots",
+      "externalStorage": {
+        "Standard, Red, Blue, Green": [
+          "1 x 55-gallon Barrel",
+          "1 x Wooden Crate"
+        ],
+        "GAI (Police)": [
+          "None"
+        ]
+      },
+      "attachments": {
+        "All variants": [
+          "1 x Cassette Player",
+          "1 x Gasoline Canister",
+          "1 x Backpack",
+          "1 x Shoulder Weapon",
+          "1 x Pistol",
+          "1 x Spare Wheel",
+          "2 x Number Plates"
+        ]
+      },
+      "fuel": "Petrol",
+      "fuelCapacity": "45 litres",
+      "requirements": [
+        "Car Battery",
+        "Car Radiator",
+        "Spark Plug",
+        "4 x IJ-2140 SL Wheels",
+        "1 x Spare Wheel"
+      ],
+      "seating": "4",
+      "gearbox": "Manual 4-speed",
+      "drive": "AWD",
+      "variants": [
+        "Standard",
+        "Red",
+        "Blue",
+        "Green",
+        "GAI (Police)"
+      ],
+      "classname": [
+        "IJ_2140_SL",
+        "IJ_2140_SL_red",
+        "IJ_2140_SL_blue",
+        "IJ_2140_SL_green",
+        "IJ_2140_SLGAI"
+      ],
+      "mod": "RUSForma"
     }
 ]
