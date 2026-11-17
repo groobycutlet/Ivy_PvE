@@ -142,5 +142,27 @@
     ],
     "classname": "dodge_power_wagonrus",
     "mod": "RUSForma"
+  },
+  {
+    "id": "f1_pickup",
+    "name": "F1 Pickup",
+    "category": "UTILITY",
+    "image": "",
+    "description": "A rugged all-wheel-drive pickup truck with a manual gearbox, designed for transporting equipment and supplies. Offers generous internal storage and multiple external attachment points for barrels, wooden crates and a camo net.",
+    "storage": "800 slots",
+    "externalStorage": "2 x Wooden Crates, 4 x 55-gallon Barrels and 1 x Camo Net",
+    "fuel": "Petrol",
+    "fuelCapacity": "55 litres",
+    "access": "Car Battery, Car Radiator, Spark Plug and 4 wheels",
+    "seating": 4,
+    "gearbox": "Manual (3 forward gears + reverse)",
+    "drive": "AWD with locked differentials",
+    "variants": [
+      "Standard",
+      "Green",
+      "Black"
+    ],
+    "classname": "F1_Pickup",
+    "mod": "RUSForma"
   }
 ]
