@@ -28,10 +28,25 @@
     "name": "Artillery Tractor",
     "category": "SPECIALIST",
     "image": "",
-    "description": "A heavy-duty, all-wheel-drive military transport vehicle. Equipped with a large cargo area and multiple attachment points for carrying equipment, supplies, fuel drums and wooden crates. Its 90-litre fuel tank and substantial cargo capacity make it useful for transporting personnel and supplies across difficult terrain.",
+    "description": "A heavy-duty, all-wheel-drive military transport vehicle designed for carrying equipment and supplies across difficult terrain.",
     "storage": "1000 slots",
+    "externalStorage": "Multiple attachment points for fuel drums and wooden crates",
     "fuel": "Petrol",
-    "access": "Truck Battery, Car Radiator and Spark Plug",
+    "fuelCapacity": "90 litres",
+    "requirements": "Truck Battery, Car Radiator and Spark Plug",
+    "seating": 10,
+    "gearbox": "Manual",
+    "drive": "AWD",
+    "variants": [
+      "Standard",
+      "Black",
+      "Green",
+      "Camo",
+      "Kung",
+      "Kung Camo",
+      "Kung Black",
+      "Kung Green"
+    ],
     "classname": "artillery_tractor",
     "mod": "RUSForma"
   }
