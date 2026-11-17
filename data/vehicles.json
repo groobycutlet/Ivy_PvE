@@ -332,5 +332,54 @@
     ],
     "classname": "gaz_51",
     "mod": "RUSForma"
+  },
+  {
+    "id": "gaz_53rf",
+    "name": "GAZ-53",
+    "price": "0",
+    "category": "TRUCK",
+    "image": "",
+    "description": "A heavy-duty, all-wheel-drive Soviet cargo truck designed for transporting equipment and supplies across difficult terrain. Available in standard flatbed and petrol truck configurations, with a large internal cargo area.",
+    "storage": "1000 slots",
+    "externalStorage": "Flatbed: 6 x 55-gallon Barrels + 4 x Wooden Crates. Petrol Truck: No external cargo containers.",
+    "attachments": {
+        "Flatbed": [
+            "1 x Tent",
+            "1 x Cassette Player",
+            "1 x Gasoline Canister",
+            "1 x Shovel (Shoulder Slot)",
+            "1 x Melee Weapon Slot",
+            "1 x Backpack Slot",
+            "1 x Spare Wheel"
+        ],
+        "Petrol Truck": [
+            "1 x Cassette Player",
+            "1 x Gasoline Canister",
+            "1 x Shovel (Shoulder Slot)",
+            "1 x Melee Weapon Slot",
+            "1 x Backpack Slot",
+            "1 x Spare Wheel"
+        ]
+    },
+    "fuel": "Petrol",
+    "fuelCapacity": "105 litres",
+    "requirements": [
+        "Truck Battery",
+        "Car Radiator",
+        "Spark Plug",
+        "4 x Wheel Attachment Positions (6 physical wheels)"
+    ],
+    "seating": "10 (Driver + Co-Driver + 8 Passengers)",
+    "gearbox": "Manual (4-speed)",
+    "drive": "AWD",
+    "variants": [
+        "Flatbed",
+        "Petrol Truck"
+    ],
+    "classname": [
+        "Gaz_53RF",
+        "Gaz_53RF_petrol_truck"
+    ],
+    "mod": "RUSForma"
   }
 ]
