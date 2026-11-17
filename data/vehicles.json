@@ -33,20 +33,20 @@
     "externalStorage": "Standard: 6 x 55-gallon Barrels + 4 x Wooden Crates. Kung: 2 x 55-gallon Barrels + 4 x Wooden Crates.",
     "attachments": {
       "Standard - ": [
-        "1 x Tent",
+        ")1 x Tent",
         "1 x Cassette Player",
         "1 x Gasoline Canister",
         "1 x Backpack",
         "1 x Shoulder Slot",
         "1 x Melee Weapon Slot",
-        "1 x Spare Wheel "
+        "1 x Spare Wheel)"
       ],
       "Kung - ": [
-        "3 x Magazine Slots",
+        "(3 x Magazine Slots",
         "1 x Headgear",
         "1 x Pickaxe",
         "1 x Knife",
-        "1 x Pistol"
+        "1 x Pistol)"
       ]
     },
     "fuel": "Petrol",
