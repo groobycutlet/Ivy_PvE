@@ -26,6 +26,7 @@
   {
     "id": "artillery_tractor",
     "name": "Artillery Tractor",
+    "price": "000",
     "category": "SPECIALIST",
     "image": "",
     "description": "A heavy-duty, all-wheel-drive military transport vehicle designed for carrying equipment and supplies across difficult terrain. Features a large internal cargo area and extensive external attachment options.",
@@ -71,6 +72,7 @@
   {
     "id": "azlk_2141",
     "name": "AZLK 2141",
+    "price": "000",
     "category": "CIVILIAN",
     "image": "",
     "description": "A compact four-wheel-drive civilian passenger car.",
@@ -109,6 +111,7 @@
   {
     "id": "brdm2_rf",
     "name": "BRDM-2",
+    "price": "000",
     "category": "MILITARY",
     "image": "",
     "description": "An armoured military reconnaissance vehicle with all-wheel drive, a locked central differential and a manual gearbox. Features a reinforced body, multiple replaceable doors and a roof-mounted turret area.",
@@ -139,6 +142,7 @@
   {
     "id": "btr_80",
     "name": "BTR-80",
+    "price": "1,500,000",
     "category": "MILITARY",
     "image": "",
     "description": "A heavily armoured 8-wheeled military personnel carrier designed for transporting troops across difficult terrain. Features all-wheel drive, locked differentials and a reinforced chassis. Offers substantial cargo capacity and multiple external storage attachment points, making it suitable for military transport and long-range operations.",
@@ -170,6 +174,7 @@
   {
     "id": "dodge_power_wagon",
     "name": "Dodge Power Wagon",
+    "price": "000",
     "category": "UTILITY",
     "image": "",
     "description": "A rugged all-wheel-drive utility truck with a manual gearbox and a range of external storage attachment points. Its cargo capacity and ability to carry additional barrels or a wooden crate make it a practical vehicle for transporting supplies and equipment.",
@@ -198,6 +203,7 @@
   {
     "id": "f1_pickup",
     "name": "F1 Pickup",
+    "price": "000",
     "category": "UTILITY",
     "image": "",
     "description": "A rugged all-wheel-drive pickup truck with a manual gearbox, designed for transporting equipment and supplies. Offers generous internal storage and multiple external attachment points for barrels, wooden crates and a camo net.",
@@ -228,6 +234,7 @@
   {
     "id": "gaz_12",
     "name": "GAZ-12",
+    "price": "000",
     "category": "UTILITY",
     "image": "",
     "description": "A classic all-wheel-drive passenger car with a manual gearbox. Offers seating for four and a useful cargo area, with additional attachment points for two wooden crates. A distinctive vehicle with practical storage capacity.",
@@ -259,6 +266,7 @@
   {
     "id": "gaz_13_chaika",
     "name": "GAZ-13 Chaika",
+    "price": "000",
     "category": "LUXURY",
     "image": "",
     "description": "A classic Soviet luxury passenger car featuring all-wheel drive and a spacious interior. Offers substantial internal storage, additional equipment attachment points and a choice of manual or automatic transmission. A comfortable vehicle for travelling in style.",
@@ -295,6 +303,7 @@
   {
     "id": "gaz_51",
     "name": "GAZ-51",
+    "price": "000",
     "category": "UTILITY",
     "image": "",
     "description": "A rugged Soviet-era utility truck built for hauling supplies and equipment across difficult terrain. Features all-wheel drive, a spacious cargo area and extensive external storage. A practical workhorse for transport and logistics.",
