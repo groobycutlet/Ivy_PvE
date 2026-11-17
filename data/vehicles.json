@@ -24,15 +24,16 @@
     "mod": "Expansion Mod"
   },
   {
-    "id": "sample-recon-vehicle",
-    "name": "Recon Vehicle",
+    "id": "artillery_tractor",
+    "name": "Artillery Tractor",
     "category": "SPECIALIST",
     "image": "",
-    "description": "Use this slot for a specialist or rare vehicle. Explain its strengths, limitations and where players can find it.",
-    "storage": "ADD VALUE",
-    "fuel": "ADD TYPE",
-    "access": "ADD METHOD",
-    "classname": "ADD CLASSNAME",
-    "mod": "Other Modded Vehicles"
+    "description": "A heavy-duty, all-wheel-drive military transport vehicle. Equipped with a large cargo area and multiple attachment points for carrying equipment, supplies, fuel drums and wooden crates. Its 90-litre fuel tank and substantial cargo capacity make it useful for transporting personnel and supplies across difficult terrain.",
+    "storage": "1000 slots",
+    "fuel": "Petrol",
+    "access": "Truck Battery, Car Radiator and Spark Plug",
+    "classname": "artillery_tractor",
+    "mod": "RUSForma"
   }
+
 ]
