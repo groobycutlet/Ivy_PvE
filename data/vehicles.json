@@ -74,5 +74,27 @@
     ],
     "classname": "AZLK_2141RF",
     "mod": "RUSForma"
+  },
+  {
+    "id": "brdm2_rf",
+    "name": "BRDM-2",
+    "category": "MILITARY",
+    "image": "",
+    "description": "An armoured military reconnaissance vehicle with all-wheel drive, a locked central differential and a manual gearbox. Features a reinforced body, multiple replaceable doors and a roof-mounted turret area.",
+    "storage": "1000 slots",
+    "externalStorage": "2 x Wooden Crates. Additional attachment: 1 x Camo Net and 1 x Gasoline Canister.",
+    "fuel": "Petrol",
+    "fuelCapacity": "90 litres",
+    "requirements": "Truck Battery, Car Radiator and Spark Plug",
+    "seating": 4,
+    "gearbox": "Manual (4 forward gears + reverse)",
+    "drive": "AWD",
+    "variants": [
+      "Standard",
+      "Camouflage",
+      "Winter"
+    ],
+    "classname": "BRDM2_RF",
+    "mod": "RUSForma"
   }
 ]
