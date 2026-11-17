@@ -213,5 +213,37 @@
     ],
     "classname": "GAZ_13_Chaika",
     "mod": "RUSForma"
+  },
+  {
+    "id": "gaz_51",
+    "name": "GAZ-51",
+    "category": "UTILITY",
+    "image": "",
+    "description": "A rugged Soviet-era utility truck built for hauling supplies and equipment across difficult terrain. Features all-wheel drive, a spacious cargo area and extensive external storage. A practical workhorse for transport and logistics.",
+    "storage": "1000 slots",
+    "externalStorage": "4 x Wooden Crates and 4 x 55-Gallon Barrels",
+    "attachments": [
+      "1 x Tent",
+      "1 x Portable Power Generator",
+      "1 x Gasoline Canister",
+      "1 x Cassette Player",
+      "1 x Spare Wheel"
+    ],
+    "fuel": "Petrol",
+    "fuelCapacity": "80 litres",
+    "requirements": "Truck Battery, Car Radiator, Spark Plug and 4 wheel attachment positions (6 physical wheels)",
+    "seating": 4,
+    "gearbox": "Manual (4 forward gears + reverse)",
+    "drive": "AWD with locked differentials",
+    "variants": [
+      "Standard",
+      "Yellow",
+      "Camouflage",
+      "Alternative Camouflage",
+      "Green",
+      "Blue"
+    ],
+    "classname": "gaz_51",
+    "mod": "RUSForma"
   }
 ]
