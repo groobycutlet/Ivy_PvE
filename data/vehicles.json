@@ -96,5 +96,28 @@
     ],
     "classname": "BRDM2_RF",
     "mod": "RUSForma"
+  },
+  {
+    "id": "btr_80",
+    "name": "BTR-80",
+    "category": "MILITARY",
+    "image": "",
+    "description": "A heavily armoured 8-wheeled military personnel carrier designed for transporting troops across difficult terrain. Features all-wheel drive, locked differentials and a reinforced chassis. Offers substantial cargo capacity and multiple external storage attachment points, making it suitable for military transport and long-range operations.",
+    "storage": "10 x 100 cargo grid",
+    "externalStorage": "2 x 55-gallon Barrels, 4 x Wooden Crates, 1 x Sea Chest, 1 x Camo Net and 1 x Gasoline Canister",
+    "fuel": "Petrol",
+    "fuelCapacity": "100 litres",
+    "access": "Truck Battery, Car Radiator, Spark Plug and 8 wheels",
+    "seating": 10,
+    "gearbox": "Manual (5 forward gears + reverse)",
+    "drive": "AWD with locked differentials",
+    "variants": [
+      "Standard",
+      "Camouflage",
+      "Alternative Camouflage",
+      "Rust"
+    ],
+    "classname": "BTR_80",
+    "mod": "RUSForma"
   }
 ]
