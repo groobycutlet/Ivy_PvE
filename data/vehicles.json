@@ -186,5 +186,32 @@
     ],
     "classname": "GAZ_12",
     "mod": "RUSForma"
+  },
+  {
+    "id": "gaz_13_chaika",
+    "name": "GAZ-13 Chaika",
+    "category": "LUXURY",
+    "image": "",
+    "description": "A classic Soviet luxury passenger car featuring all-wheel drive and a spacious interior. Offers substantial internal storage, additional equipment attachment points and a choice of manual or automatic transmission. A comfortable vehicle for travelling in style.",
+    "storage": "800 slots",
+    "externalStorage": "1 x Camo Net, 1 x Backpack, 2 x Weapon Slots and 1 x Gasoline Canister",
+    "fuel": "Petrol",
+    "fuelCapacity": "80 litres",
+    "access": "Car Battery, Car Radiator, Spark Plug and 4 wheels",
+    "seating": 6,
+    "gearbox": "Manual (3 forward gears + reverse) or Automatic",
+    "drive": "AWD with locked differentials",
+    "variants": [
+      "Standard",
+      "Standard Automatic",
+      "Black Rust",
+      "Black Rust Automatic",
+      "White",
+      "White Automatic",
+      "White Rust",
+      "White Rust Automatic"
+    ],
+    "classname": "GAZ_13_Chaika",
+    "mod": "RUSForma"
   }
 ]
