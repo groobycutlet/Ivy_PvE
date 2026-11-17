@@ -1006,5 +1006,54 @@
         "kamaz_4310RUS_kung_oon"
       ],
       "mod": "RUSForma"
+    },
+    {
+      "id": "kavz_685",
+      "name": "KAvZ-685",
+      "price": "0",
+      "category": "BUS",
+      "image": "",
+      "description": "Soviet-era passenger bus with AWD, extensive cargo capacity and multiple colour options.",
+      "storage": "1000 slots",
+      "externalStorage": {
+        "All variants": [
+          "2 x 55-gallon Barrels",
+          "4 x Wooden Crates"
+        ]
+      },
+      "attachments": {
+        "All variants": [
+          "1 x Cassette Player",
+          "1 x Gasoline Canister",
+          "1 x Spare Wheel",
+          "2 x Number Plates"
+        ]
+      },
+      "fuel": "Petrol",
+      "fuelCapacity": "105 litres",
+      "requirements": [
+        "Truck Battery",
+        "Car Radiator",
+        "Spark Plug",
+        "2 x KAvZ-685 Single Wheels",
+        "2 x KAvZ-685 Double Wheels",
+        "1 x Spare Wheel"
+      ],
+      "seating": "9",
+      "gearbox": "Manual 4-speed",
+      "drive": "AWD",
+      "variants": [
+        "Standard",
+        "Beige",
+        "Red",
+        "Green"
+      ],
+      "classname": [
+        "KAVZ685_RF",
+        "KAVZ685_RF_beige",
+        "KAVZ685_RF_red",
+        "KAVZ685_RF_green"
+      ],
+      "mod": "RUSForma"
     }
 ]
