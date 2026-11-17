@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Ivy PvE Badlands vehicle showcase."><title>Vehicle Showcase | Ivy PvE</title><link rel="stylesheet" href="assets/style.css"><style>
+.vehicle-search{max-width:680px;margin:2rem 0 2.25rem;padding:1.1rem 1.25rem;border:1px solid rgba(190,174,135,.28);background:rgba(18,24,22,.72)}
+.vehicle-search label{display:block;margin-bottom:.65rem;font-size:.72rem;letter-spacing:.16em;font-weight:700;color:var(--accent,#c4ad78)}
+.vehicle-search-row{display:flex;gap:.65rem;align-items:stretch}
+.vehicle-search input{flex:1;min-width:0;padding:.9rem 1rem;border:1px solid rgba(190,174,135,.35);border-radius:0;background:rgba(0,0,0,.25);color:inherit;font:inherit}
+.vehicle-search input:focus{outline:2px solid var(--accent,#c4ad78);outline-offset:2px}
+.vehicle-search input::placeholder{color:rgba(220,220,210,.55)}
+.vehicle-search button{padding:.75rem 1rem;border:1px solid rgba(190,174,135,.45);background:transparent;color:inherit;font:inherit;font-size:.72rem;font-weight:700;letter-spacing:.1em;cursor:pointer}
+.vehicle-search button:hover{background:rgba(190,174,135,.12)}
+.vehicle-search button[hidden]{display:none}
+.vehicle-search-count{margin:.6rem 0 0;color:var(--muted,#aaa);font-size:.78rem}
+.vehicle-no-results{padding:1.5rem;border:1px dashed rgba(190,174,135,.3)}
+@media(max-width:520px){.vehicle-search{padding:1rem}.vehicle-search-row{flex-wrap:wrap}.vehicle-search input{flex-basis:100%}.vehicle-search button{width:100%}}
+</style></head>
+<body><header class="site-header"><a class="brand" href="index.html"><img src="assets/ivy-badlands.png" alt="Ivy PvE Badlands"><span>IVY <b>PVE</b></span></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="nav"><a href="index.html">Home</a><a href="news.html">News & Updates</a><a href="server.html">Server Details</a><a href="items.html">Custom Items</a><a class="active" href="vehicles.html">Vehicles</a></nav></header>
+<main><section class="page-hero"><p class="eyebrow">MOTORPOOL / 04</p><h1>VEHICLE <span>SHOWCASE</span></h1><p>Choose your ride. Plan your route. Watch your fuel.</p></section><section class="section"><div class="catalog-intro"><div><p class="eyebrow">MOTORPOOL REGISTER</p><h2>BUILT TO GO FURTHER.</h2></div><p>All vehicles are organised by their source mod.</p></div>
+<div class="vehicle-search" role="search">
+  <label for="vehicle-search">SEARCH THE MOTORPOOL</label>
+  <div class="vehicle-search-row">
+    <input id="vehicle-search" type="search" placeholder="Search vehicle name, classname, mod or variant…" autocomplete="off">
+    <button id="vehicle-search-clear" type="button" hidden aria-label="Clear vehicle search">CLEAR</button>
+  </div>
+  <p id="vehicle-search-count" class="vehicle-search-count" aria-live="polite">Loading vehicles…</p>
+</div>
+<div class="vehicle-groups" id="vehicles-list" data-json="data/vehicles.json"><p class="muted">Loading vehicle register…</p></div><div class="callout compact-callout"><div><p class="eyebrow">VEHICLE OWNERS</p><h2>CHECK BEFORE YOU ROLL OUT.</h2><p>Add your server's vehicle repair, storage, despawn and safe-driving rules here.</p></div><a class="button button-primary" href="server.html">Server Rules</a></div></section></main>
+<footer class="site-footer"><div class="footer-brand">IVY <b>PVE</b><span> / BADLANDS</span></div><p>Survive the wastes. Make your mark.</p><div class="footer-links"><a href="index.html">Home</a><a href="news.html">News</a><a href="server.html">Server</a><a href="items.html">Items</a><a href="vehicles.html">Vehicles</a></div><small>Fan-made community website. DayZ is a trademark of its respective owner.</small></footer><script src="assets/site.js"></script></body></html>
