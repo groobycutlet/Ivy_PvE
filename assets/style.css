@@ -122,3 +122,32 @@
 .spec-grid b{line-height:1.45}
 @media(max-width:1050px){.spec-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:620px){.spec-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.spec-grid>div{padding:10px 8px}.spec-grid b{font-size:10px}}
+
+/* Separate variant-specific vehicle attachments */
+.spec-grid b.spec-attachments {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.attachment-variant {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.attachment-variant + .attachment-variant {
+    border-top: 1px solid #454139;
+    padding-top: 9px;
+}
+
+.attachment-variant strong {
+    color: #d99a45;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.attachment-variant span {
+    line-height: 1.5;
+}
