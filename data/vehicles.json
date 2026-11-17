@@ -1124,5 +1124,57 @@
         "kraz_255B_kung_blue"
       ],
       "mod": "RUSForma"
+    },
+    {
+      "id": "kuban_g1",
+      "name": "Kuban G1",
+      "price": "0",
+      "category": "UTILITY",
+      "image": "",
+      "description": "A compact all-wheel-drive utility vehicle with a 10-seat capacity and configurable external cargo storage.",
+      "storage": "800 slots",
+      "externalStorage": {
+        "All variants": [
+          "3 x 55-gallon Barrels",
+          "2 x Wooden Crates"
+        ]
+      },
+      "attachments": {
+        "All variants": [
+          "Cassette Player",
+          "Gasoline Canister",
+          "Backpack",
+          "Shoulder Weapon",
+          "Melee Weapon",
+          "Spare Wheel",
+          "2 x Number Plates"
+        ]
+      },
+      "fuel": "Petrol",
+      "fuelCapacity": "105 litres",
+      "requirements": [
+        "Truck Battery",
+        "Car Radiator",
+        "Spark Plug",
+        "2 x Kuban G1 Single Wheels",
+        "2 x Kuban G1 Double Wheels",
+        "1 x Spare Wheel"
+      ],
+      "seating": 11,
+      "gearbox": "Manual 4-speed",
+      "drive": "AWD",
+      "variants": [
+        "Standard",
+        "Green",
+        "Green 2",
+        "Red"
+      ],
+      "classname": [
+        "KubanG1",
+        "KubanG1_green",
+        "KubanG1_green2",
+        "KubanG1_red"
+      ],
+      "mod": "RUSForma"
     }
 ]
