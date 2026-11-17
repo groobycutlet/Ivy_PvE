@@ -164,5 +164,27 @@
     ],
     "classname": "F1_Pickup",
     "mod": "RUSForma"
+  },
+  {
+    "id": "gaz_12",
+    "name": "GAZ-12",
+    "category": "UTILITY",
+    "image": "",
+    "description": "A classic all-wheel-drive passenger car with a manual gearbox. Offers seating for four and a useful cargo area, with additional attachment points for two wooden crates. A distinctive vehicle with practical storage capacity.",
+    "storage": "700 slots",
+    "externalStorage": "2 x Wooden Crates and 1 x Camo Net",
+    "fuel": "Petrol",
+    "fuelCapacity": "80 litres",
+    "access": "Car Battery, Car Radiator, Spark Plug and 4 wheels",
+    "seating": 4,
+    "gearbox": "Manual (3 forward gears + reverse)",
+    "drive": "AWD with locked differentials",
+    "variants": [
+      "Standard",
+      "White",
+      "Kombi"
+    ],
+    "classname": "GAZ_12",
+    "mod": "RUSForma"
   }
 ]
