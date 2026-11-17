@@ -463,5 +463,68 @@
         "GAZ_66_kuzov_camo2"
     ],
     "mod": "RUSForma"
+  },
+  {
+    "id": "gaz_69",
+    "name": "GAZ-69",
+    "price": "0",
+    "category": "UTILITY",
+    "image": "",
+    "description": "Classic Soviet 4x4 utility vehicle. Compact and rugged, with an optional canvas roof and several colour and camouflage variants.",
+    "storage": "800 slots",
+    "externalStorage": {
+        "Standard": [
+            "1 x 55-gallon Barrel"
+        ],
+        "Canvas Roof": [
+            "1 x 55-gallon Barrel"
+        ]
+    },
+    "attachments": {
+        "Standard": [
+            "Canvas Roof",
+            "Cassette Player",
+            "Gasoline Canister",
+            "Backpack",
+            "Shoulder Weapon",
+            "Spare Wheel",
+            "Number Plates"
+        ],
+        "Canvas Roof": [
+            "Cassette Player",
+            "Gasoline Canister",
+            "Backpack",
+            "Shoulder Weapon",
+            "Spare Wheel",
+            "Number Plates"
+        ]
+    },
+    "fuel": "Petrol",
+    "fuelCapacity": "48 litres",
+    "requirements": [
+        "Car Battery",
+        "Car Radiator",
+        "Spark Plug",
+        "4 x GAZ-69 Wheels",
+        "1 x Spare Wheel"
+    ],
+    "seating": "4",
+    "gearbox": "Manual 3-speed",
+    "drive": "AWD",
+    "variants": [
+        "Standard",
+        "Yellow",
+        "Green",
+        "Camouflage",
+        "Camouflage 2"
+    ],
+    "classname": [
+        "GAZ_69_rus",
+        "GAZ_69_rus_yellow",
+        "GAZ_69_rus_green",
+        "GAZ_69_rus_camo",
+        "GAZ_69_rus_camo2"
+    ],
+    "mod": "RUSForma"
   }
 ]
