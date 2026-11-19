@@ -1,13 +1,39 @@
 [
   {
-    "id": "sample-medical-kit",
-    "name": "Custom First Aid Kit",
+    "id": "ivypve_pills_carrier",
+    "name": "Ivy PvE Pills Carrier",
     "category": "medical",
     "categoryLabel": "Medical",
     "image": "",
     "description": "Add the kit's contents, crafting details, rarity and intended use.",
-    "rarity": "ADD RARITY",
-    "capacity": "ADD CAPACITY",
+    "rarity": "Common",
+    "capacity": "50 slots",
+    "obtainable": "ADD SOURCE",
+    "classname": "ADD CLASSNAME",
+    "artLabel": "FIELD MEDICAL"
+  },
+  {
+    "id": "ivypve_ampoule_carrier",
+    "name": "Ivy PvE Ampoule Carrier",
+    "category": "medical",
+    "categoryLabel": "Medical",
+    "image": "",
+    "description": "Add the kit's contents, crafting details, rarity and intended use.",
+    "rarity": "Common",
+    "capacity": "50 slots",
+    "obtainable": "ADD SOURCE",
+    "classname": "ADD CLASSNAME",
+    "artLabel": "FIELD MEDICAL"
+  },
+  {
+    "id": "ivypve_injector_carrier",
+    "name": "Ivy PvE Injector Carrier",
+    "category": "medical",
+    "categoryLabel": "Medical",
+    "image": "",
+    "description": "Add the kit's contents, crafting details, rarity and intended use.",
+    "rarity": "Common",
+    "capacity": "50 slots",
     "obtainable": "ADD SOURCE",
     "classname": "ADD CLASSNAME",
     "artLabel": "FIELD MEDICAL"
