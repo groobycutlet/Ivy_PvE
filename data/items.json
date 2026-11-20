@@ -187,5 +187,19 @@
     "classname": "ADD CLASSNAME",
     "artLabel": "APPAREL",
     "screenshots": []
+  },
+  {
+    "id": "ivypve_bandage_dressing",
+    "name": "Red/Green/Pink Bandage Dressing",
+    "category": "medical",
+    "categoryLabel": "Medical",
+    "image": "",
+    "description": "An extra long bandage by TonKa.",
+    "rarity": "Common",
+    "capacity": "N/A",
+    "obtainable": "ADD SOURCE",
+    "classname": "ADD CLASSNAME",
+    "artLabel": "FIELD MEDICAL",
+    "screenshots": []
   }
 ]
