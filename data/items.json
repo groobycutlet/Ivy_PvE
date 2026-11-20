@@ -174,4 +174,18 @@
     "artLabel": "APPAREL",
     "screenshots": []
   },
+  {
+    "id": "ivy_pve_shemagh_scarf",
+    "name": "IVY PVE Shemagh Scarf",
+    "category": "clothing",
+    "categoryLabel": "Clothing",
+    "image": "",
+    "description": "Shemagh, also known as Keffiyeh, is a wrap-around head covering that is essential for protecting eyes, nose, mouth and neck from sun, wind and sand. by TonKa.",
+    "rarity": "ADD RARITY",
+    "capacity": "N/A",
+    "obtainable": "ADD SOURCE",
+    "classname": "ADD CLASSNAME",
+    "artLabel": "APPAREL",
+    "screenshots": []
+  }
 ]
