@@ -77,15 +77,15 @@
     "screenshots": []
   },
   {
-    "id": "sample-specialist-equipment",
-    "name": "Specialist Equipment",
+    "id": "ivy_pve_back_rifle_sling",
+    "name": "Ivy PvE Back Rifle Sling",
     "category": "weapons",
     "categoryLabel": "Weapons",
     "image": "",
-    "description": "Use this entry for approved custom weapon content or attachments on your server.",
+    "description": "Rifle sling for firearms. By TonKa.",
     "rarity": "ADD RARITY",
-    "capacity": "N/A",
-    "obtainable": "ADD SOURCE",
+    "capacity": "1 weapon",
+    "variants": "Black",
     "classname": "ADD CLASSNAME",
     "artLabel": "FIELD KIT",
     "screenshots": []
