@@ -39,17 +39,23 @@
     "artLabel": "FIELD MEDICAL"
   },
   {
-    "id": "sample-field-jacket",
-    "name": "Badlands Field Jacket",
+    "id": "ivy_pve_shabby_hoodie",
+    "name": "IVY PVE Shabby Hoodie",
     "category": "clothing",
     "categoryLabel": "Clothing",
     "image": "",
-    "description": "Describe its appearance, storage capacity, protection and how players obtain it.",
+    "description": "A shabby hoodie designed by local villagers and woven by TonKa.",
     "rarity": "ADD RARITY",
-    "capacity": "ADD CAPACITY",
+    "capacity": "50 slots",
     "obtainable": "ADD SOURCE",
     "classname": "ADD CLASSNAME",
-    "artLabel": "APPAREL"
+    "artLabel": "APPAREL",
+    "screenshots": [
+      "assets/items/ivy_s_hoodie001.jpg",
+      "assets/items/ivy_s_hoodie002.jpg",
+      "assets/items/ivy_s_hoodie003.jpg",
+      "assets/items/ivy_s_hoodie004.jpg"
+    ]
   },
   {
     "id": "sample-expedition-case",
