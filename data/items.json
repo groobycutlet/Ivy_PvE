@@ -1,16 +1,17 @@
 [
   {
-    "id": "ivypve_pills_carrier",
-    "name": "Ivy PvE Pills Carrier",
+    "id": "ivypve_fa_pills_carrier",
+    "name": "Ivy PvE First Aid Pills Carrier",
     "category": "medical",
     "categoryLabel": "Medical",
     "image": "",
-    "description": "Add the kit's contents, crafting details, rarity and intended use.",
+    "description": "A first aid pouch to carry your pills in by TonKa.",
     "rarity": "Common",
     "capacity": "50 slots",
     "obtainable": "ADD SOURCE",
     "classname": "ADD CLASSNAME",
-    "artLabel": "FIELD MEDICAL"
+    "artLabel": "FIELD MEDICAL",
+    "screenshots": []
   },
   {
     "id": "ivypve_ampoule_carrier",
@@ -18,12 +19,13 @@
     "category": "medical",
     "categoryLabel": "Medical",
     "image": "",
-    "description": "Add the kit's contents, crafting details, rarity and intended use.",
+    "description": "A first aid pouch to carry your ampoules in by TonKa.",
     "rarity": "Common",
     "capacity": "50 slots",
     "obtainable": "ADD SOURCE",
     "classname": "ADD CLASSNAME",
-    "artLabel": "FIELD MEDICAL"
+    "artLabel": "FIELD MEDICAL",
+    "screenshots": []
   },
   {
     "id": "ivypve_injector_carrier",
@@ -31,12 +33,13 @@
     "category": "medical",
     "categoryLabel": "Medical",
     "image": "",
-    "description": "Add the kit's contents, crafting details, rarity and intended use.",
+    "description": "A first aid pouch to carry your injectors in by TonKa.",
     "rarity": "Common",
     "capacity": "50 slots",
     "obtainable": "ADD SOURCE",
     "classname": "ADD CLASSNAME",
-    "artLabel": "FIELD MEDICAL"
+    "artLabel": "FIELD MEDICAL",
+    "screenshots": []
   },
   {
     "id": "ivy_pve_shabby_hoodie",
@@ -70,7 +73,8 @@
     "capacity": "ADD CAPACITY",
     "obtainable": "ADD SOURCE",
     "classname": "ADD CLASSNAME",
-    "artLabel": "STORAGE"
+    "artLabel": "STORAGE",
+    "screenshots": []
   },
   {
     "id": "sample-specialist-equipment",
@@ -83,7 +87,8 @@
     "capacity": "N/A",
     "obtainable": "ADD SOURCE",
     "classname": "ADD CLASSNAME",
-    "artLabel": "FIELD KIT"
+    "artLabel": "FIELD KIT",
+    "screenshots": []
   },
   {
     "id": "sample-medical-pack",
@@ -96,7 +101,8 @@
     "capacity": "ADD CAPACITY",
     "obtainable": "ADD SOURCE",
     "classname": "ADD CLASSNAME",
-    "artLabel": "SUPPLIES"
+    "artLabel": "SUPPLIES",
+    "screenshots": []
   },
   {
     "id": "ivy_pve_protector_case",
@@ -104,50 +110,68 @@
     "category": "tools",
     "categoryLabel": "Tools & Storage",
     "image": "",
-    "description": "Showcase storage and utility items that make life in the Badlands easier.",
+    "description": "A valuable rusty rare protector case for use with a crafting workbench.",
     "rarity": "ADD RARITY",
     "capacity": "12 slots",
     "obtainable": "ADD SOURCE",
     "classname": "ADD CLASSNAME",
-    "artLabel": "UTILITY"
+    "artLabel": "UTILITY",
+    "screenshots": []
   },
   {
     "id": "ivy_pve_gascan_small",
-    "name": "Small Ivy PvE Gascan",
+    "name": "Small Gas Canister",
     "category": "tools",
     "categoryLabel": "Tools & Storage",
     "image": "",
-    "description": "Showcase storage and utility items that make life in the Badlands easier.",
+    "description": "A longer life Methane filled gas canister by TonKa.",
     "rarity": "ADD RARITY",
     "capacity": "N/A",
     "obtainable": "ADD SOURCE",
     "classname": "ADD CLASSNAME",
-    "artLabel": "UTILITY"
+    "artLabel": "UTILITY",
+    "screenshots": []
   },
   {
     "id": "ivy_pve_gascan_medium",
-    "name": "Medium Ivy PvE Gascan",
+    "name": "Medium Gas Canister",
     "category": "tools",
     "categoryLabel": "Tools & Storage",
     "image": "",
-    "description": "Showcase storage and utility items that make life in the Badlands easier.",
+    "description": "A longer life Methane filled gas canister by TonKa.",
     "rarity": "ADD RARITY",
     "capacity": "N/A",
     "obtainable": "ADD SOURCE",
     "classname": "ADD CLASSNAME",
-    "artLabel": "UTILITY"
+    "artLabel": "UTILITY",
+    "screenshots": []
   },
   {
     "id": "ivy_pve_gascan_large",
-    "name": "Large Ivy PvE Gascan",
+    "name": "Large Gas Canister",
     "category": "tools",
     "categoryLabel": "Tools & Storage",
     "image": "",
-    "description": "Showcase storage and utility items that make life in the Badlands easier.",
+    "description": "A longer life Methane filled gas canister by TonKa.",
     "rarity": "ADD RARITY",
     "capacity": "N/A",
     "obtainable": "ADD SOURCE",
     "classname": "ADD CLASSNAME",
-    "artLabel": "UTILITY"
+    "artLabel": "UTILITY",
+    "screenshots": []
   }
+  {
+    "id": "ivy_pve_combat_backpack",
+    "name": "IVY PVE Combat Backpack",
+    "category": "clothing",
+    "categoryLabel": "Clothing",
+    "image": "",
+    "description": "A combat backpack designed by local villagers and woven by TonKa.",
+    "rarity": "ADD RARITY",
+    "capacity": "90 slots, Weapon Slot, 2x Radio, Sheath, Holster, Bottle, Tool",
+    "obtainable": "ADD SOURCE",
+    "classname": "ADD CLASSNAME",
+    "artLabel": "APPAREL",
+    "screenshots": []
+  },
 ]
